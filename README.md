@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@deno/mod.js';
+import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@v0.2.2-deno/mod.js';
 ```
 
 #### groupValues( x, groups )
@@ -104,7 +104,7 @@ var out = groupValues( x, groups );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take-indexed@deno/mod.js';
-import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@deno/mod.js';
+import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@v0.2.2-deno/mod.js';
 
 // Define an initial array of values:
 var values = [ 'beep', 'boop', 'foo', 'bar', 'woot', 'woot' ];
