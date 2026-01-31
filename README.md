@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@esm/index.mjs';
+import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@v0.2.3-esm/index.mjs';
 ```
 
 #### groupValues( x, groups )
@@ -109,7 +109,7 @@ var out = groupValues( x, groups );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import take from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-take-indexed@esm/index.mjs';
-import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@esm/index.mjs';
+import groupValues from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-group-values@v0.2.3-esm/index.mjs';
 
 // Define an initial array of values:
 var values = [ 'beep', 'boop', 'foo', 'bar', 'woot', 'woot' ];
