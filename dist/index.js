@@ -1,4 +1,4 @@
-"use strict";var f=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var l=f(function(p,h){"use strict";var m=require("@stdlib/assert-is-array"),o=require("@stdlib/array-base-resolve-getter");function c(e,r){var u,g,n,a,i,v,s,t;if(n=e.length,r.length!==n)throw new RangeError("invalid argument. The first and second arguments must have the same length.");for(u=o(e),g=o(r),a={},t=0;t<n;t++)s=u(e,t),i=g(r,t).toString(),v=a[i],m(v)?v.push(s):a[i]=[s];return a}h.exports=c});var d=l();module.exports=d;
+"use strict";var f=function(e,r){return function(){try{return r||e((r={exports:{}}).exports,r),r.exports}catch(a){throw r=0,a}}};var l=f(function(p,h){"use strict";var m=require("@stdlib/assert-is-array"),o=require("@stdlib/array-base-resolve-getter");function c(e,r){var a,g,i,n,v,s,u,t;if(i=e.length,r.length!==i)throw new RangeError("invalid argument. The first and second arguments must have the same length.");for(a=o(e),g=o(r),n={},t=0;t<i;t++)u=a(e,t),v=g(r,t).toString(),s=n[v],m(s)?s.push(u):n[v]=[u];return n}h.exports=c});var d=l();module.exports=d;
 /**
 * @license Apache-2.0
 *
